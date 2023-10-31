@@ -1,0 +1,14 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    background-color: pink;
+}
+
+h1 {
+    text-transform: uppercase; 
+    color: white;
+}
+
+h6 {
+    color: black;
+}
