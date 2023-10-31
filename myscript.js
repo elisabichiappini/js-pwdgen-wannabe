@@ -10,11 +10,15 @@ const elementSurname = document.getElementById ('surname');
 const elementColor = document.getElementById ('color');
 const elementNumber = document.getElementById ('number');
 
-//assegnazione numero
+// assegnazione numero
 elementNumber.innerHTML = 21;
 
-//richiesta input al cliente
-elementName.innerHTML = prompt('Inserisci il tuo nome');
-elementSurname.innerHTML = prompt('Inserisci il tuo cognome');
+// richiesta input al cliente
+elementName.innerHTML = prompt ('Inserisci il tuo nome');
+elementSurname.innerHTML = prompt ('Inserisci il tuo cognome');
 elementColor.innerHTML = prompt ('Inserisci il tuo colore');
 
+// operazione di concatenazione 
+let elementDates = 'Input: ';
+elementDates = elementName.innerHTML + ' ' + elementSurname.innerHTML + ' ' + elementColor.innerHTML + ' ' + elementNumber.innerHTML;
+console.log(elementDates);
