@@ -18,7 +18,7 @@ elementName.innerHTML = prompt ('Inserisci il tuo nome');
 elementSurname.innerHTML = prompt ('Inserisci il tuo cognome');
 elementColor.innerHTML = prompt ('Inserisci il tuo colore');
 
-// operazione di concatenazione 
-let elementDates = 'Input: ';
-elementDates = elementName.innerHTML + ' ' + elementSurname.innerHTML + ' ' + elementColor.innerHTML + ' ' + elementNumber.innerHTML;
+// operazione di concatenazione in console
+let elementDates = document.getElementById ('results');
+elementDates = ` ${elementName.innerHTML}, ${elementSurname.innerHTML}, ${elementColor.innerHTML} `;
 console.log(elementDates);
